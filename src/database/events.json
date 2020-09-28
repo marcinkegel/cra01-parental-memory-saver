@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "type": "milestone",
+      "title": "Birth",
+      "note": "Zuzanna was born",
+      "image": "",
+      "date": "17.12.2017",
+      "id": 1
+    },
+    {
+      "type": "milestone",
+      "title": "First Steps",
+      "note": "Zuzanna made her first steps",
+      "image": "",
+      "date": "17.12.2018",
+      "id": 2
+    },
+    {
+      "type": "milestone",
+      "title": "First Word",
+      "note": "Zuzanna said MAMA",
+      "image": "",
+      "date": "18.03.2019",
+      "id": 3
+    },
+    {
+      "type": "quote",
+      "title": "Zuzia to Marcin",
+      "note": "\"Co ty za głupotki opowiadasz tatusiu\"",
+      "image": "",
+      "date": "20.09.2020",
+      "id": 4
+    },
+    {
+      "type": "quote",
+      "title": "Co spotkało dinozaury",
+      "note": "Dinozaurów już nie ma, bo jeden szedł, zrobił bum - wywrócił się i nie ma teraz dinozaurów 😀",
+      "image": "",
+      "date": "20.10.2020",
+      "id": 5
+    },
+    {
+      "type": "quote",
+      "title": "Zuzia urośnie",
+      "note": "tutaj treść cytatu",
+      "image": "",
+      "date": "23.09.2020",
+      "id": 6
+    },
+    {
+      "type": "comment",
+      "title": "tytuł 3",
+      "note": "bbbbbbbbbbbb",
+      "image": "",
+      "date": "22.09.2019",
+      "id": 7
+    },
+    {
+      "type": "comment",
+      "title": "ddds1",
+      "note": "jgkuzjckxgvuk g udgufffgj",
+      "image": "",
+      "date": "18.12.2017",
+      "id": 8
+    },
+    {
+      "type": "comment",
+      "title": "do posortowania",
+      "note": "udsfdg vukjgd fgkgxfukkhcgc",
+      "image": "",
+      "date": "26.09.2020",
+      "id": 9
+    }
+  ]
+}

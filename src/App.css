@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.form {
+  display: block;
+  background-color: rgba(98, 195, 212, 0.49);
+}
+
+.form--element {
+  display: block;
+}
