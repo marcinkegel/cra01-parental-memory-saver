@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../App.css';
+import Timeline from "./js/Timeline";
 
 function App() {
   return (
-    <div className="App">
-      MemoryLane
-    </div>
+    <>
+        <h1>MemoryLane</h1>
+        <Timeline/>
+
+    </>
   );
 }
 
