@@ -12,18 +12,6 @@ const Timeline = () => {
 
     const API = "http://localhost:3001/events";
 
-    // const sortEvents = ()=>{
-    //     setEvents(prevState => {
-    //         const sorted = prevState.sort(function (a, b) {
-    //             a = a.date.toString().split('.');
-    //             b = b.date.toString().split('.');
-    //             return b[2] - a[2] || b[1] - a[1] || b[0] - a[0];
-    //         });
-    //         return [sorted]
-    //     })
-    // }
-
-
     useEffect(()=>{
         fetch(API)
             .then(response =>{
@@ -100,6 +88,7 @@ const Timeline = () => {
                                     <h3 className="vertical-timeline-element-title">{event.title}</h3>
                                     <h4 className="vertical-timeline-element-subtitle">{event.type}</h4>
                                     <p>{event.note}</p>
+                                    {event.image && <img alt="your memory" src={event.image}/>}
                                 </VerticalTimelineElement>
                             )
 

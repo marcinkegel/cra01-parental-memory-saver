@@ -12,7 +12,7 @@
       "type": "milestone",
       "title": "First Steps",
       "note": "Zuzanna made her first steps",
-      "image": "",
+      "image": "https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "date": "17.12.2018",
       "id": 2
     },
@@ -71,6 +71,14 @@
       "image": "",
       "date": "26.09.2020",
       "id": 9
+    },
+    {
+      "type": "comment",
+      "title": "sprawdzam memory display",
+      "note": "sprawdzam memory display",
+      "image": "",
+      "date": "17.09.2018",
+      "id": 10
     }
   ]
 }
