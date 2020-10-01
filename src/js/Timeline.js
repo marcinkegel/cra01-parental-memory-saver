@@ -3,7 +3,27 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import AddEntry from "./AddEntry";
 import DisplayMemory from "./DisplayMemory";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faQuoteRight, faStar, faCommentDots, faHeart } from '@fortawesome/free-solid-svg-icons'
 
+
+
+const selectIcon= (type)=>{
+    const quoteIcon = <FontAwesomeIcon icon={faQuoteRight} />
+    const milestoneIcon = <FontAwesomeIcon icon={faStar} />
+    const commentIcon = <FontAwesomeIcon icon={faCommentDots} />
+    const heartIcon = <FontAwesomeIcon icon={faHeart}/>
+
+    if (type ==="milestone"){
+        return milestoneIcon
+    } else if (type === "quote") {
+        return quoteIcon
+    } else if (type === "comment"){
+        return commentIcon
+    } else {
+        return heartIcon
+    }
+}
 
 const Timeline = () => {
 
@@ -64,31 +84,19 @@ const Timeline = () => {
 
                 <VerticalTimeline>
 
-                    {/*<VerticalTimelineElement*/}
-                    {/*    className="vertical-timeline-element--work"*/}
-                    {/*    date="24.12.2018"*/}
-                    {/*    iconStyle={{ background: 'grey', color: '#fff' }}*/}
-                    {/*    //icon={icon}*/}
-                    {/*>*/}
-                    {/*    <h3 className="vertical-timeline-element-title">First Steps</h3>*/}
-                    {/*    <h4 className="vertical-timeline-element-subtitle">Milestone</h4>*/}
-                    {/*    <p>*/}
-                    {/*        Zuzia zrobiła pierwsze kroki za krzesłem*/}
-                    {/*    </p>*/}
-                    {/*</VerticalTimelineElement>*/}
-
                     {events.map(function(event){
                             return(
                                 <VerticalTimelineElement
                                     key={event.id}
                                     className="vertical-timeline-element--work"
                                     date={event.date}
-                                    iconStyle={{ background: 'grey', color: '#fff' }}
+                                    iconStyle={{ background: 'grey', color: '#fff', fontSize:"23px"}}
+                                    icon={selectIcon(event.type)}
                                 >
                                     <h3 className="vertical-timeline-element-title">{event.title}</h3>
                                     <h4 className="vertical-timeline-element-subtitle">{event.type}</h4>
                                     <p>{event.note}</p>
-                                    {event.image && <img alt="your memory" src={event.image}/>}
+                                    {event.image && <img className="timeline--img" alt="your memory" src={event.image}/>}
                                 </VerticalTimelineElement>
                             )
 

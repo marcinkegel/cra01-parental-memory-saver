@@ -4,8 +4,8 @@
       "type": "milestone",
       "title": "Birth",
       "note": "Zuzanna was born",
-      "image": "",
-      "date": "17.12.2017",
+      "image": "https://pixabay.com/get/53e4d5444951ae14f1dc8460da29317e143ad8e6535272_640.jpg",
+      "date": "17.12.2016",
       "id": 1
     },
     {
@@ -13,14 +13,14 @@
       "title": "First Steps",
       "note": "Zuzanna made her first steps",
       "image": "https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "date": "17.12.2018",
+      "date": "17.10.2017",
       "id": 2
     },
     {
       "type": "milestone",
       "title": "First Word",
       "note": "Zuzanna said MAMA",
-      "image": "",
+      "image": "https://pixabay.com/get/57e2d54a4253aa14f1dc8460da29317e143ad8e0545271_640.jpg",
       "date": "18.03.2019",
       "id": 3
     },
@@ -28,15 +28,15 @@
       "type": "quote",
       "title": "Zuzia to Marcin",
       "note": "\"Co ty za głupotki opowiadasz tatusiu\"",
-      "image": "",
-      "date": "20.09.2020",
+      "image": "https://pixabay.com/get/5fe3d6434355b10ff3d89960c62e377f1039d6e45353_640.jpg",
+      "date": "20.10.2019",
       "id": 4
     },
     {
       "type": "quote",
       "title": "Co spotkało dinozaury",
       "note": "Dinozaurów już nie ma, bo jeden szedł, zrobił bum - wywrócił się i nie ma teraz dinozaurów 😀",
-      "image": "",
+      "image": "https://pixabay.com/get/57e0d0424d53ab14f1dc8460da29317e143ad8e2565672_640.jpg",
       "date": "20.10.2020",
       "id": 5
     },
@@ -44,15 +44,15 @@
       "type": "quote",
       "title": "Zuzia urośnie",
       "note": "tutaj treść cytatu",
-      "image": "",
+      "image": "https://pixabay.com/get/54e8d5424951ae14f1dc8460da29317e143ad8e0505373_640.jpg",
       "date": "23.09.2020",
       "id": 6
     },
     {
       "type": "comment",
-      "title": "tytuł 3",
+      "title": "Wakacje",
       "note": "bbbbbbbbbbbb",
-      "image": "",
+      "image": "https://pixabay.com/get/57e0d147495aaf14f1dc8460da29317e143ad8e0575971_640.jpg",
       "date": "22.10.2019",
       "id": 7
     },
@@ -60,25 +60,41 @@
       "type": "comment",
       "title": "ddds1",
       "note": "jgkuzjckxgvuk g udgufffgj",
-      "image": "",
-      "date": "18.12.2017",
+      "image": "https://pixabay.com/get/57e5d1454d53ac14f1dc8460da29317e143ad8e0505671_640.jpg",
+      "date": "18.10.2018",
       "id": 8
     },
     {
       "type": "comment",
-      "title": "do posortowania",
+      "title": "Z bracholem",
       "note": "udsfdg vukjgd fgkgxfukkhcgc",
-      "image": "",
-      "date": "26.09.2020",
+      "image": "https://pixabay.com/get/52e5d2414955b10ff3d89960c62e377f1039dde45152_640.jpg",
+      "date": "26.10.2020",
       "id": 9
     },
     {
       "type": "comment",
       "title": "sprawdzam memory display",
       "note": "sprawdzam memory display",
-      "image": "",
+      "image": "https://pixabay.com/get/57e1d0404353a514f1dc8460da29317e143ad8e0545672_640.jpg",
       "date": "17.10.2018",
       "id": 10
+    },
+    {
+      "type": "milestone",
+      "title": "Pierwsza jazda na rowerku",
+      "note": "Nowy rower, nowy kask, nowe siniaki!",
+      "image": "https://pixabay.com/get/54e6d2464c50ab14f1dc8460da29317e143ad9e7535378_640.jpg",
+      "date": "01.10.2018",
+      "id": 11
+    },
+    {
+      "type": "comment",
+      "title": "sprawdzam reset formularza",
+      "note": "fgkdsgffgfdsgggggg",
+      "image": "https://pixabay.com/get/57e4d041435aaa14f1dc8460da29317e143ad9e75b5470_640.jpg",
+      "date": "17.11.2019",
+      "id": 12
     }
   ]
 }

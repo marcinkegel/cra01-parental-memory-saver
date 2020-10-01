@@ -48,6 +48,16 @@ const AddEntry = ({handleAddEntry}) => {
         return valid;
     }
 
+    const resetForm = ()=>{
+        setForm({
+            type: "",
+            title: "",
+            note: "",
+            image: "",
+            date: ""
+        })
+    }
+
     const handleSubmit = (e)=>{
         e.preventDefault()
         if (validate()){
@@ -64,6 +74,8 @@ const AddEntry = ({handleAddEntry}) => {
                     console.log(data);
                     setIsSubmitted(true);
                     handleAddEntry(data)
+                    resetForm()
+
 
 
                 })
@@ -110,6 +122,10 @@ const AddEntry = ({handleAddEntry}) => {
                         <option value="quote">Quote</option>
                         <option value="comment">Comment</option>
                     </select>
+                </label>
+
+                <label className="form--element"> Image URL (optional)
+                    <input type="url" name="image" value={form.image} onChange={handleChange}/>
                 </label>
                 <button type="submit">Submit</button>
 
