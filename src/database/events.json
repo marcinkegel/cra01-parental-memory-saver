@@ -4,7 +4,7 @@
       "type": "milestone",
       "title": "Birth",
       "note": "Zuzanna was born",
-      "image": "https://pixabay.com/get/53e4d5444951ae14f1dc8460da29317e143ad8e6535272_640.jpg",
+      "image": "https://pixabay.com/get/52e6d147495bb10ff3d89960c62e377f1037d8e75556_640.jpg",
       "date": "17.12.2016",
       "id": 1
     },
@@ -12,7 +12,7 @@
       "type": "milestone",
       "title": "First Steps",
       "note": "Zuzanna made her first steps",
-      "image": "https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image": "https://pixabay.com/get/52e6d147495bb10ff3d89960c62e377f1037d8e75556_640.jpg",
       "date": "17.10.2017",
       "id": 2
     },
@@ -20,7 +20,7 @@
       "type": "milestone",
       "title": "First Word",
       "note": "Zuzanna said MAMA",
-      "image": "https://pixabay.com/get/57e2d54a4253aa14f1dc8460da29317e143ad8e0545271_640.jpg",
+      "image": "https://pixabay.com/get/52e6d147495bb10ff3d89960c62e377f1037d8e75556_640.jpg",
       "date": "18.03.2019",
       "id": 3
     },
@@ -36,7 +36,7 @@
       "type": "quote",
       "title": "Co spotkało dinozaury",
       "note": "Dinozaurów już nie ma, bo jeden szedł, zrobił bum - wywrócił się i nie ma teraz dinozaurów 😀",
-      "image": "https://pixabay.com/get/57e0d0424d53ab14f1dc8460da29317e143ad8e2565672_640.jpg",
+      "image": "https://pixabay.com/get/52e6d147495bb10ff3d89960c62e377f1037d8e75556_640.jpg",
       "date": "20.10.2020",
       "id": 5
     },
@@ -92,9 +92,17 @@
       "type": "comment",
       "title": "sprawdzam reset formularza",
       "note": "fgkdsgffgfdsgggggg",
-      "image": "https://pixabay.com/get/57e4d041435aaa14f1dc8460da29317e143ad9e75b5470_640.jpg",
+      "image": "https://pixabay.com/get/52e6d147495bb10ff3d89960c62e377f1037d8e75556_640.jpg",
       "date": "17.11.2019",
       "id": 12
+    },
+    {
+      "type": "quote",
+      "title": "htgkjkkj",
+      "note": "ghjfdhsdgffjhghjdhd",
+      "image": "https://pixabay.com/get/52e6d147495bb10ff3d89960c62e377f1037d8e75556_640.jpg",
+      "date": "17.10.2019",
+      "id": 13
     }
   ]
 }
