@@ -1,0 +1,49 @@
+.addEntry--button{
+  @include box;
+  margin: 50px auto;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: $font-primary;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.addEntry--icon{
+  margin: 0 40px;
+}
+
+.form {
+  @include box;
+  font-family: $font-secondary;
+  //min-height: 50vh;
+  margin: 50px auto;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.1rem;
+
+  .form--element {
+    margin-top: 20px;
+    text-align: center;
+
+    //align-self: flex-start;
+    //display: inline-block;
+    .form--input {
+      display: block;
+      border-radius: $border-radius;
+      padding: 10px;
+    }
+  }
+  .form--btn{
+    @include button;
+  }
+
+}
+

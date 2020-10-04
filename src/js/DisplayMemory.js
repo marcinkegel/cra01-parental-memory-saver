@@ -33,12 +33,15 @@ const DisplayMemory = ({events}) => {
 
                 <div key={event.id} className="memory--element">
 
-                    <h4 className= "memory--element--header memory--element--text" > This month  {(yearsAgo===1)? 'last year' : (yearsAgo + ' years ago')}</h4>
-                    <h4 className= "memory--element--text">{event.type}</h4>
+                    <h3 className= "memory--element--header memory--element--text" > This month  {(yearsAgo===1)? 'last year' : (yearsAgo + ' years ago')}</h3>
+                    <h3 className= "memory--element--date memory--element--text">{event.date}</h3>
+                    <p className= "memory--element--text memory--element--type">{event.type}</p>
                     <h2 className= "memory--element--text memory--element--title ">{event.title}</h2>
 
                     <p className= "memory--element--text memory--element--note">{event.note}</p>
                     {event.image && <img className="memory--element--img" alt="your memory" src={event.image}/>}
+
+
 
                 </div>
 
@@ -53,7 +56,7 @@ const DisplayMemory = ({events}) => {
 
 
         <>
-            <h3>Display Memory</h3>
+            <h3 className="memory--header">Display Memory</h3>
             <div className="carousel--container">
                 <Carousel>
                     {displayedMemories()}

@@ -1,0 +1,53 @@
+.memory--header{
+  text-align: center;
+  font-size: 2rem;
+  font-family: $font-primary;
+}
+
+
+.carousel--container {
+  margin: auto;
+  width: 90vw;
+}
+
+.memory--element {
+  @include box;
+  min-height: 50vh;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.memory--element--header {
+  text-align: center;
+}
+
+.memory--element--text {
+  margin: 0 auto;
+  font-family: $font-secondary;
+}
+.memory--element--title{
+  margin: 20px auto;
+  font-family: $font-primary;
+}
+
+.memory--element--note{
+  margin: 20px auto;
+  font-family: $font-primary;
+}
+.memory--element--img--container{
+  display: flex;
+  justify-content: center;
+}
+.memory--element--img {
+  border-radius: 15px;
+  max-height: 300px;
+  max-width: 450px;
+}
+
+.memory--element--type {
+  font-style: italic;
+  font-size: 0.7rem;
+}

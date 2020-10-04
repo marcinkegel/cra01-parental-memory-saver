@@ -1,0 +1,42 @@
+div .vertical-timeline-element-content {
+  border-radius: $border-radius;
+}
+
+.timeline--header{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.timeline--img {
+  max-height: 300px;
+  max-width: 450px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.vertical-timeline-element--work {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.timeline--text{
+  color: black;
+  text-align: center;
+}
+
+.vertical-timeline-element-title{
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+}
+
+.timeline--note {
+  margin: 20px auto;
+  font-family: 'Pacifico', cursive;
+}
+
+.vertical-timeline-element-subtitle {
+  font-style: italic;
+  font-size: 0.7rem;
+}
+

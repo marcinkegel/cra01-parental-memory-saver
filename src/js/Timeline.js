@@ -78,11 +78,11 @@ const Timeline = () => {
             <DisplayMemory events={events}/>
             <AddEntry handleAddEntry={handleAddEntry}/>
             <div style={{backgroundColor: "grey"}}>
-                <div>
+                <h2 className="timeline--header">
                     Timeline
-                 </div>
+                 </h2>
 
-                <VerticalTimeline>
+                <VerticalTimeline className="vtl">
 
                     {events.map(function(event){
                             return(
@@ -93,10 +93,10 @@ const Timeline = () => {
                                     iconStyle={{ background: 'grey', color: '#fff', fontSize:"23px"}}
                                     icon={selectIcon(event.type)}
                                 >
-                                    <h3 className="vertical-timeline-element-title">{event.title}</h3>
-                                    <h4 className="vertical-timeline-element-subtitle">{event.type}</h4>
-                                    <p>{event.note}</p>
-                                    {event.image && <img className="timeline--img" alt="your memory" src={event.image}/>}
+                                    <h3 className="timeline--text vertical-timeline-element-title">{event.title}</h3>
+                                    <h4 className="timeline--text vertical-timeline-element-subtitle">{event.type}</h4>
+                                    <p className="timeline--text timeline--note">{event.note}</p>
+                                    {event.image && <div className="memory--element--img--container"> <img className="timeline--img" alt="your memory" src={event.image}/></div>}
                                 </VerticalTimelineElement>
                             )
 

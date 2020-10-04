@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .2s ease-in-out;
+  &:focus, &:active {
+    outline: none;
+    border-width: 3px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
