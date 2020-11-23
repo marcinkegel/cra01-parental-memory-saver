@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.scss';
 import Timeline from "./js/Timeline";
+// import Signup from "./js/Signup";
+// import {AuthProvider} from "./js/contexts/AuthContext";
 
 function App() {
   return (
     <>
-        <h1 className="logo">MemoryLane</h1>
+        <div>
+            <h1 className="logo">MemoryLane</h1>
 
-        <Timeline/>
+            {/*<Signup/>*/}
+
+            <Timeline/>
+        </div>
+
 
 
     </>
