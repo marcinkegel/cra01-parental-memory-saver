@@ -1,3 +1,18 @@
+Please run the App with json-server on a changed port to seethe app working with some data already in it. 
+
+PLease go: 
+npm i 
+npm install -g json-server
+
+in dir src/database : 
+json-server --watch events.json --port 3001
+
+in project dir
+npm start
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
