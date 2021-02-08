@@ -8,9 +8,10 @@ const Signup = () => {
         username: '',
         email: '',
         passwordOne: '',
-        passwordTwo: '',
-        error: null,
+        passwordTwo: ''
     });
+    const [error, setError] = useState("");
+    const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
         const {name, value} = e.target;
@@ -24,10 +25,19 @@ const Signup = () => {
 
     const {signup} = useAuth();
 
-    const onSubmit = event => {
+    async function onSubmit(event){
         event.preventDefault();
-        signup(form.email, form.passwordOne);
-    }
+        try {
+            setError("");
+            setLoading(true);
+            await signup(form.email, form.passwordOne);
+        } catch (signupError){
+            setError(signupError.message)
+        }
+
+        setLoading(false)
+
+    };
 
 
     const isInvalid =
@@ -75,7 +85,10 @@ const Signup = () => {
                 <button disabled={isInvalid} type="submit">
                     Sign Up</button>
 
-                {/*{error && <p>{error.message}</p>}*/}
+                {error && <p>{error}</p>}
+                {loading && <p>"LOADING..."</p>}
+
+
             </form>
 
 
